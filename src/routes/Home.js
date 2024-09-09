@@ -8,10 +8,7 @@ function Home() {
   const getMovies = async () => {
     const json = await (
       await fetch(
-        `https://yts.mx/api/v2/list_movies.json?sort_by=year&minimum_rating=8.5`
-        //`https://yts.mx/api/v2/list_movies.json?sort_by=rating`
-        //`https://yts.mx/api/v2/list_movies.json?`
-        //`https://yts.mx/api/v2/list_movies.json?sort_by=year`
+        `https://yts.mx/api/v2/list_movies.json?sort_by=like_count&limit=50`
       )
     ).json();
     setMovies(json.data.movies);

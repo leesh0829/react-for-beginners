@@ -11,6 +11,8 @@ function Detail() {
     ).json();
     setMovies(json.data.movie);
     setLoading(false);
+
+    console.log(movies);
   };
 
   useEffect(() => {
@@ -40,7 +42,7 @@ function Detail() {
               width="560"
               height="315"
               src={`https://www.youtube.com/embed/${movies.yt_trailer_code}`}
-              frameborder="0"
+              frameBorder="0"
             ></iframe>
           </div>
         </div>
