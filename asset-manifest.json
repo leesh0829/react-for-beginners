@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-for-beginners/static/js/main.0bc05fe0.js",
+    "main.js": "/react-for-beginners/static/js/main.e332d788.js",
     "index.html": "/react-for-beginners/index.html",
-    "main.0bc05fe0.js.map": "/react-for-beginners/static/js/main.0bc05fe0.js.map"
+    "main.e332d788.js.map": "/react-for-beginners/static/js/main.e332d788.js.map"
   },
   "entrypoints": [
-    "static/js/main.0bc05fe0.js"
+    "static/js/main.e332d788.js"
   ]
 }
